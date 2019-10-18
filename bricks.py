@@ -553,8 +553,8 @@ def game(level):
         bricks_stable.draw(screen)
         
         # space_3
-        #for i in space_3:
-        #    screen.blit(ds, i)
+        for i in space_3:
+            screen.blit(ds, i)
             
         # cursor
         curs_real_pos = (((curs_x + 1) * step), ((curs_y + 3) * step))
